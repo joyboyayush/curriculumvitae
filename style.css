@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/*font-family: 'Pacifico', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap');
+/*font-family: 'Oswald', sans-serif;*/
+body{
+    background-color:wheat;;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Pacifico', cursive;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: antiquewhite;
+
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+.brand img{
+    width: 60px;
+    padding: 0 10px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+div{
+    font-family: 'Pacifico', cursive;
+    color: black;
+}
+
+.container{
+    min-height: 50vh;
+    background-color: blanchedalmond;
+    margin: 30px auto ;
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container1{
+    min-height: 60vh;
+    background-color: beige;
+    margin: auto;
+    width:40%;
+    border-radius: 10px;
+    padding: 25px;
+    background-image: url(1.jpg);
+}
+
+.container2{
+    font-family: 'Oswald', sans-serif;
+    min-height: 50vh;
+    background-color: blanchedalmond;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bolder;
+}
+.container3{
+    font-family: 'Oswald', sans-serif;
+    min-height: 50vh;
+    background-color: blanchedalmond;
+    margin: 30px auto;
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bolder;
+}
